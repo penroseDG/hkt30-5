@@ -1,0 +1,59 @@
+.header {
+    background-color: orange;
+    margin: 0 auto;
+    border-bottom: 1px solid #ddd;
+    justify-content: center;
+    align-items: center;
+    width: max-width;
+
+    .logo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .nameShop {
+            h3 {
+                margin: 0;
+                font-size: 1.75rem;
+                color: #333;
+            }
+        }
+
+        .findItems {
+            margin: 20px 0;
+
+            input[type='text'] {
+                width: 100%;
+                padding: 10px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+            }
+        }
+
+        .findItems {
+            position: relative;
+
+            input[type='text'] {
+                padding-right: 30px;
+
+            }
+
+            .fa-search {
+                position: absolute;
+                right: 10px;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+        }
+
+        .cart {
+            position: relative;
+            cursor: pointer;
+
+            .fa-shopping-cart {
+                font-size: 1.5rem;
+            }
+        }
+
+    }
+}

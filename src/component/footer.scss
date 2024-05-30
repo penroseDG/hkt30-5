@@ -1,0 +1,49 @@
+.footer {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+    text-align: left;
+  
+    .footer-column {
+      margin-bottom: 30px; 
+  
+      h4 {
+        font-size: 1.5rem; 
+        margin-bottom: 20px; 
+      }
+  
+      ul {
+        list-style: none;
+        padding: 0;
+  
+        li {
+          margin-bottom: 15px; 
+          font-size: 1.1rem; 
+          color: #6c757d;
+        }
+      }
+    }
+  
+    .footer-column-follow {
+      ul {
+        gap: 15px; 
+  
+        li {
+          margin: 0;
+        }
+      }
+    }
+  
+    .footer-developer-team {
+      h4 {
+        font-size: 1.5rem;
+        color: #343a40;
+        margin-bottom: 20px; 
+      }
+  
+      p {
+        font-size: 1.1rem;
+        color: #6c757d;
+      }
+    }
+  }
+  
